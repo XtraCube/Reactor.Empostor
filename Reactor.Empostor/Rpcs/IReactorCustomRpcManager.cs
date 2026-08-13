@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-
-namespace Reactor.Impostor.Rpcs;
+namespace Reactor.Empostor.Rpcs;
 
 public interface IReactorCustomRpcManager
 {

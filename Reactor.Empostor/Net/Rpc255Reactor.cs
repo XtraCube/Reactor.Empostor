@@ -1,14 +1,12 @@
-using System.Linq;
-using System.Threading.Tasks;
-using Impostor.Api;
-using Impostor.Api.Net;
-using Impostor.Api.Net.Custom;
-using Impostor.Api.Net.Inner;
-using Impostor.Hazel.Abstractions;
+using Empostor.Api;
+using Empostor.Api.Net;
+using Empostor.Api.Net.Custom;
+using Empostor.Api.Net.Inner;
 using Microsoft.Extensions.Logging;
-using Reactor.Impostor.Rpcs;
+using Next.Hazel.Abstractions;
+using Reactor.Empostor.Rpcs;
 
-namespace Reactor.Impostor.Net;
+namespace Reactor.Empostor.Net;
 
 public class Rpc255Reactor : ICustomRpc
 {

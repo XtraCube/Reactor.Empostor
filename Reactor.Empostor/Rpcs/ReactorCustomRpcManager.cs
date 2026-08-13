@@ -1,10 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using Impostor.Api;
+using Empostor.Api;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Reactor.Impostor.Rpcs;
+namespace Reactor.Empostor.Rpcs;
 
 internal class ReactorCustomRpcManager : IReactorCustomRpcManager
 {
@@ -23,7 +20,7 @@ internal class ReactorCustomRpcManager : IReactorCustomRpcManager
     {
         if (Rpcs.Any(x => x.ModId == customRpc.ModId && x.Id == customRpc.Id))
         {
-            throw new ImpostorException("Custom rpc with that id and mod id was already registered");
+            throw new EmpostorException("Custom rpc with that id and mod id was already registered");
         }
 
         Rpcs.Add(customRpc);
@@ -34,7 +31,7 @@ internal class ReactorCustomRpcManager : IReactorCustomRpcManager
     {
         if (Rpcs.Any(x => x.GetType() == typeof(T)))
         {
-            throw new ImpostorException("Reactor custom rpc with that type was already registered");
+            throw new EmpostorException("Reactor custom rpc with that type was already registered");
         }
 
         return Register(ActivatorUtilities.CreateInstance<T>(_serviceProvider));

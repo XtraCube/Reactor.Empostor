@@ -1,12 +1,10 @@
-using System;
-using System.Threading.Tasks;
-using Impostor.Api.Net;
-using Impostor.Api.Net.Inner;
-using Impostor.Hazel.Abstractions;
-using Reactor.Impostor.Net;
+using Empostor.Api.Net;
+using Empostor.Api.Net.Inner;
+using Next.Hazel.Abstractions;
+using Reactor.Empostor.Net;
 using Reactor.Networking;
 
-namespace Reactor.Impostor.Rpcs;
+namespace Reactor.Empostor.Rpcs;
 
 public static class Extensions
 {

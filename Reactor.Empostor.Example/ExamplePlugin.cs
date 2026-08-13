@@ -1,11 +1,10 @@
-﻿using System.Threading.Tasks;
-using Impostor.Api.Events;
-using Impostor.Api.Plugins;
-using Reactor.Impostor.Rpcs;
+﻿using Empostor.Api.Events;
+using Empostor.Api.Plugins;
+using Reactor.Empostor.Rpcs;
 
-namespace Reactor.Impostor.Example;
+namespace Reactor.Empostor.Example;
 
-[ImpostorPlugin("gg.reactor.impostor.example")]
+[EmpostorPlugin("gg.reactor.Empostor.example")]
 public class ExamplePlugin : PluginBase
 {
     private readonly IReactorCustomRpcManager _rpcManager;

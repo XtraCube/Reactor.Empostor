@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 #
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactor.Impostor", "Reactor.Impostor\Reactor.Impostor.csproj", "{1522BD93-2A54-4B2C-8137-179978CD8D98}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactor.Empostor", "Reactor.Empostor\Reactor.Empostor.csproj", "{1522BD93-2A54-4B2C-8137-179978CD8D98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactor.Impostor.Example", "Reactor.Impostor.Example\Reactor.Impostor.Example.csproj", "{9CA8D857-B2B8-4A82-9622-9E87281EC6E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reactor.Empostor.Example", "Reactor.Empostor.Example\Reactor.Empostor.Example.csproj", "{9CA8D857-B2B8-4A82-9622-9E87281EC6E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

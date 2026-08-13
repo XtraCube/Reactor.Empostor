@@ -1,9 +1,9 @@
-﻿using Impostor.Api.Events;
-using Impostor.Api.Plugins;
+﻿using Empostor.Api.Events;
+using Empostor.Api.Plugins;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Reactor.Impostor.Example;
+namespace Reactor.Empostor.Example;
 
 public class ExamplePluginStartup : IPluginStartup
 {

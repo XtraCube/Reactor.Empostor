@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Reactor.Impostor\Reactor.Impostor.csproj">
+        <ProjectReference Include="..\Reactor.Empostor\Reactor.Empostor.csproj">
             <Private>false</Private>
         </ProjectReference>
     </ItemGroup>

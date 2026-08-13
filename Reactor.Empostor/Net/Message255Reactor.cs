@@ -1,11 +1,10 @@
-using System.Threading.Tasks;
-using Impostor.Api.Net;
-using Impostor.Api.Net.Custom;
-using Impostor.Hazel.Abstractions;
+using Empostor.Api.Net;
+using Empostor.Api.Net.Custom;
 using Microsoft.Extensions.Logging;
+using Next.Hazel.Abstractions;
 using Reactor.Networking;
 
-namespace Reactor.Impostor.Net;
+namespace Reactor.Empostor.Net;
 
 public class Message255Reactor : ICustomRootMessage
 {

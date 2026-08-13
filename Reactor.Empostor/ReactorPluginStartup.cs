@@ -1,13 +1,13 @@
-using Impostor.Api.Events;
-using Impostor.Api.Http;
-using Impostor.Api.Plugins;
+using Empostor.Api.Events;
+using Empostor.Api.Http;
+using Empostor.Api.Plugins;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Reactor.Impostor.Http;
-using Reactor.Impostor.Rpcs;
+using Reactor.Empostor.Http;
+using Reactor.Empostor.Rpcs;
 
-namespace Reactor.Impostor;
+namespace Reactor.Empostor;
 
 public class ReactorPluginStartup : IPluginHttpStartup
 {

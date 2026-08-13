@@ -1,16 +1,14 @@
-using System;
-using System.Threading.Tasks;
-using Impostor.Api.Events;
-using Impostor.Api.Events.Client;
-using Impostor.Api.Games;
-using Impostor.Api.Innersloth;
-using Impostor.Hazel.Abstractions;
-using Impostor.Api.Utils;
+using Empostor.Api.Events;
+using Empostor.Api.Events.Client;
+using Empostor.Api.Games;
+using Empostor.Api.Innersloth;
+using Empostor.Api.Utils;
 using Microsoft.Extensions.Logging;
-using Reactor.Impostor.Net;
+using Next.Hazel.Abstractions;
+using Reactor.Empostor.Net;
 using Reactor.Networking;
 
-namespace Reactor.Impostor;
+namespace Reactor.Empostor;
 
 internal class HandshakeEventListener : IEventListener
 {
@@ -66,7 +64,7 @@ internal class HandshakeEventListener : IEventListener
         }
 
         using var writer = _messageWriterProvider.Get(MessageType.Reliable);
-        ModdedHandshakeS2C.Serialize(writer, "Impostor", _serverEnvironment.Version, 0);
+        ModdedHandshakeS2C.Serialize(writer, "Empostor", _serverEnvironment.Version, 0);
         await e.Connection.SendAsync(writer);
     }
 

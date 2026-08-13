@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Primitives;
 using Reactor.Networking;
 
-namespace Reactor.Impostor.Http;
+namespace Reactor.Empostor.Http;
 
 /// <summary>
 /// Add a Client-Mods-Processed header to all requests with a valid header.

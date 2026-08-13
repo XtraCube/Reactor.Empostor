@@ -1,14 +1,12 @@
-﻿using System;
-using System.Threading.Tasks;
-using Impostor.Api.Events;
-using Impostor.Api.Net.Custom;
-using Impostor.Api.Plugins;
+﻿using Empostor.Api.Events;
+using Empostor.Api.Net.Custom;
+using Empostor.Api.Plugins;
 using Microsoft.Extensions.DependencyInjection;
-using Reactor.Impostor.Net;
+using Reactor.Empostor.Net;
 
-namespace Reactor.Impostor;
+namespace Reactor.Empostor;
 
-[ImpostorPlugin("gg.reactor.impostor")]
+[EmpostorPlugin("gg.reactor.Empostor")]
 public class ReactorPlugin : PluginBase
 {
     private readonly IServiceProvider _serviceProvider;

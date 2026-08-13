@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyTitle>Reactor</AssemblyTitle>
+        <Description>Reactor companion plugin for Empostor</Description>
+
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Empostor.Api" Version="2.0.0-ci.538" />
+    </ItemGroup>
+
+</Project>

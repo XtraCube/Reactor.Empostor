@@ -1,8 +1,8 @@
 using System.Diagnostics.CodeAnalysis;
-using Impostor.Hazel.Abstractions;
+using Next.Hazel.Abstractions;
 using Reactor.Networking;
 
-namespace Reactor.Impostor.Net;
+namespace Reactor.Empostor.Net;
 
 public static class ReactorHeader
 {

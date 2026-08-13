@@ -1,7 +1,7 @@
 using System.Runtime.CompilerServices;
-using Impostor.Api.Net;
+using Empostor.Api.Net;
 
-namespace Reactor.Impostor;
+namespace Reactor.Empostor;
 
 public static class ClientInfoExtensions
 {

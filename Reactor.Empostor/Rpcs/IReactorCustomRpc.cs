@@ -1,10 +1,8 @@
-using System.Linq;
-using System.Threading.Tasks;
-using Impostor.Api.Net;
-using Impostor.Api.Net.Inner;
-using Impostor.Hazel.Abstractions;
+using Empostor.Api.Net;
+using Empostor.Api.Net.Inner;
+using Next.Hazel.Abstractions;
 
-namespace Reactor.Impostor.Rpcs;
+namespace Reactor.Empostor.Rpcs;
 
 public interface IReactorCustomRpc
 {

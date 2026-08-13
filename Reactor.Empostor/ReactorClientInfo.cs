@@ -1,9 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using Reactor.Networking;
 
-namespace Reactor.Impostor;
+namespace Reactor.Empostor;
 
 public class ReactorClientInfo
 {

@@ -1,11 +1,10 @@
-using System.Threading.Tasks;
-using Impostor.Api.Net;
-using Impostor.Api.Net.Inner.Objects;
-using Impostor.Hazel.Abstractions;
+using Empostor.Api.Net;
+using Empostor.Api.Net.Inner.Objects;
 using Microsoft.Extensions.Logging;
-using Reactor.Impostor.Rpcs;
+using Next.Hazel.Abstractions;
+using Reactor.Empostor.Rpcs;
 
-namespace Reactor.Impostor.Example;
+namespace Reactor.Empostor.Example;
 
 public class ExampleRpc : ReactorCustomRpc<IInnerPlayerControl>
 {

@@ -1,9 +1,9 @@
-using Impostor.Api.Games;
-using Impostor.Api.Http;
+using Empostor.Api.Games;
+using Empostor.Api.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace Reactor.Impostor.Http;
+namespace Reactor.Empostor.Http;
 
 /// <summary>
 /// Check if players have the same mods using the Reactor Handshake.

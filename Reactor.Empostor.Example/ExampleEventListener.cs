@@ -1,10 +1,8 @@
-using System.Linq;
-using System.Threading.Tasks;
-using Impostor.Api.Events;
-using Impostor.Api.Events.Player;
-using Reactor.Impostor.Rpcs;
+using Empostor.Api.Events;
+using Empostor.Api.Events.Player;
+using Reactor.Empostor.Rpcs;
 
-namespace Reactor.Impostor.Example;
+namespace Reactor.Empostor.Example;
 
 public class ExampleEventListener : IEventListener
 {
