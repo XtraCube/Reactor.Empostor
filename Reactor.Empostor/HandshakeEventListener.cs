@@ -52,7 +52,7 @@ internal class HandshakeEventListener : IEventListener
     {
         var clientInfo = e.Connection.GetReactor();
 
-        if (clientInfo == null)
+        if (clientInfo == null || !e.Connection.IsConnected)
         {
             return;
         }
